@@ -1,50 +1,53 @@
-<html lang="en">
+<!DOCTYPE html> <!-- Deklaration HTML 5 -->
+<html>
+
+	<!-- header: vordefinition der Seite -->
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Direct Upload Demo | Cloudflare Pages</title>
-    <link href="style.css" rel="stylesheet" />
+    <meta charset="UTF-8" /> <!-- Zeichenformat setzen -->
+    <title>Startseite | VS-Projekt</title> <!-- Fenstername setzten -->
+	<link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+    <link href="website.css" rel="stylesheet" /> <!-- Verweis auf .CSS -->
   </head>
 
+	<!-- body: inhalt der Seite -->
   <body>
-    <div class="container">
-      <div class="header">
-        <h3>Example project</h3>
-        <h1>Welcome to Cloudflare Pages</h1>
-        <p>
-          Upload your prebuilt assets directly to Pages and deploy <br />
-          your project to the Cloudflare edge within seconds.
-        </p>
-        <p>Create new deployments using:</p>
-        <section class="options">
-          <img src="assets/terminal.svg" />
-          <a
-            href="https://dash.cloudflare.com/?to=/:account/pages/new/wrangler-guide"
-            target="_blank"
-            > Wrangler CLI</a
-          >
-          <img src="assets/cloud-upload.svg" />
-          <a
-            href="https://dash.cloudflare.com/?to=/:account/pages/new/upload"
-            target="_blank"
-            > Dashboard</a
-          >
-        </section>
-      </div>
+        <h3 id="startseite">Startseite</h3> <!-- später: ein link zur Startseite, jetzt: gewöhnt User an position des späteren Buttons -->
+		
+		<!-- laden der bilddateien + höhen deklarierung, konnte nicht in .css geklärt werden, da jedes unterschiedlich hoch stehen sein soll -->
+		<img src="assets/Avengers_Cover.jpg" alt="Marvel's The Avengers" style="top: 50px">
+		<img src="assets/Avengers2_Cover.jpg" alt="Marvel's The Avengers: Age of Ultron" style="top: 285px">
+		<img src="assets/Avengers3_Cover.jpg" alt="Marvel's The Avengers: Infinity War" style="top: 520px">
+		<img src="assets/Avengers4_Cover.jpg" alt="Marvel's The Avengers: Endgame" style="top: 755px">
+		
 
-      <section class="learn-more">
-        <a
-          href="https://developers.cloudflare.com/pages/platform/direct-uploads"
-        >
-          <button>Learn more</button>
-        </a>
-      </section>
-      <div class="logo">
-        <a href="https://pages.cloudflare.com/" target="_blank">
-          <img src="assets/cloudflare-pages.svg"
-        /></a>
-      </div>
-    </div>
+		<div class="vorstellung">
+			<p id="tvorstellung" style="left: 0px;"> 14:00 </p>
+			<p id="tvorstellung" style="left: 200px;"> 16:00 </p>
+			<p id="tvorstellung" style="left: 400px;"> 18:00 </p>
+			<p id="tvorstellung" style="left: 600px;"> 20:00 </p>
+		</div>
+		
+		<div class="vorstellung">
+			<p id="tvorstellung" style="left: 0px;"> 14:00 </p>
+			<p id="tvorstellung" style="left: 200px;"> 16:00 </p>
+			<p id="tvorstellung" style="left: 400px;"> 18:00 </p>
+			<p id="tvorstellung" style="left: 600px;"> 20:00 </p>
+		</div>
+	
+		<div class="vorstellung">
+			<p id="tvorstellung" style="left: 0px;"> 14:00 </p>
+			<p id="tvorstellung" style="left: 200px;"> 16:00 </p>
+			<p id="tvorstellung" style="left: 400px;"> 18:00 </p>
+			<p id="tvorstellung" style="left: 600px;"> 20:00 </p>
+		</div>
+		
+		<div class="vorstellung">
+			<p id="tvorstellung" style="left: 0px;"> 14:00 </p>
+			<p id="tvorstellung" style="left: 200px;"> 16:00 </p>
+			<p id="tvorstellung" style="left: 400px;"> 18:00 </p>
+			<p id="tvorstellung" style="left: 600px;"> 20:00 </p>
+		</div>
+		
   </body>
+  
 </html>
