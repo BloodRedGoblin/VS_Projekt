@@ -78,6 +78,14 @@
 	/* border-color: purple; */
 }
 
+#ret {
+	position: absolute;
+	bottom: 50px;
+	right: 180px;
+	height: 35px;
+	width: 100px;
+}
+
 #btn {
 	position: absolute;
 	bottom: 50px;
