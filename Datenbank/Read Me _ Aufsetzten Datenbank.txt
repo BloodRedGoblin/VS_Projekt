@@ -1,0 +1,15 @@
+Als Datenbank wurde eine lokale Datenbank mithilfe von Oracle 18c aufgesetzt,
+
+url: jdbc:oracle:thin:@192.168.178.84:1521/xe
+username: System
+password: 2453
+
+diese können natürlich nach eigener konfiguration angepasst werden bei der Erstellung
+
+Nachdem die Datenbank aufgesetzt wurde kann das Skript im SQLDeveloper geöffnet 
+und durchgelaufen werden
+
+Aufbau Skript
+- löschen Tabelle (auskommentiert)
+- erstellen Tabelle
+- Dummy Daten insert

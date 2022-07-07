@@ -1,0 +1,12 @@
+Frontend ist ebenso erreichbar über https://vs-projekt-git.pages.dev/
+gehostet von Cloudflare über mein github repository
+
+github: https://github.com/BloodRedGoblin/VS_Projekt
+
+ansonsten gibt es nicht besonders viel zum Frontend zu sagen außer:
+1) der Code ist auskommentiert, falls es fragen gibt 
+2) es sind lediglich die GET und PUT Operationen implementiert
+Grund: POST und DELETE waren nicht vorgesehen für den normalen User und einen
+alternativen User (admin) zu implementieren hätte den Aufwand auf allen Bereichen
+(Frontend, Backend, Datenbank) gesteigert weswegen wir uns dagegen entschieden
+haben, da es einfach zu knapp ist damit anzufangen
