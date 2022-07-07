@@ -1,9 +1,0 @@
-Zur Entwicklung des Backends wurde Spring-tool-suite-4-4.15.1 verwendet.
-
-Uninteressanter block folgt, falls man das Projekt importieren mag
-Erstellung: 
-1) Spring Projekt
-2) Type: Maven Project, Java Version: 17, Packaging: Jar, Language: Java
-3) Spring Version: 2.7.1
-4) Dependencies: Spring Data JPA, Oracle Driver, Spring Web Services
-
