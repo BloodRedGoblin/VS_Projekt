@@ -14,7 +14,7 @@ gehostet von Cloudflare über mein github repository
 
 >github: https://github.com/BloodRedGoblin/VS_Projekt
 
->ansonsten gibt es nicht besonders viel zum Frontend zu sagen außer:
+ansonsten gibt es nicht besonders viel zum Frontend zu sagen außer:
 1) der Code ist auskommentiert, falls es fragen gibt 
 2) es sind lediglich die GET und PUT Operationen implementiert
 Grund: POST und DELETE waren nicht vorgesehen für den normalen User und einen
@@ -25,7 +25,7 @@ haben, da es einfach zu knapp ist damit anzufangen
 **Backend Readme**
 >Zur Entwicklung des Backends wurde Spring-tool-suite-4-4.15.1 verwendet.
 
->Uninteressanter block folgt, falls man das Projekt importieren mag
+Uninteressanter block folgt, falls man das Projekt importieren mag
 Erstellung: 
 1) Spring Projekt
 2) Type: Maven Project, Java Version: 17, Packaging: Jar, Language: Java
@@ -39,7 +39,7 @@ diese können natürlich nach eigener konfiguration angepasst werden bei der Ers
 >Nachdem die Datenbank aufgesetzt wurde kann das Skript im SQLDeveloper geöffnet 
 und durchgelaufen werden
 
->Aufbau Skript
+Aufbau Skript
 - löschen Tabelle (auskommentiert)
 - erstellen Tabelle
 - Dummy Daten insert
